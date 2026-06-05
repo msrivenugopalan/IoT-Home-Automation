@@ -97,5 +97,6 @@ The project was developed and tested using PICSimLab simulation tools.
 
 # Author
 **Srivenugopalan M**
+
 Electronics and Communication Engineering Student
 Passionate about Embedded Systems, IoT, Firmware Development and Automation Technologies.
