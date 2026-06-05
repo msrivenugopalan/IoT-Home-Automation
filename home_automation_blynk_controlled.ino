@@ -23,7 +23,6 @@ Peripherals   : Arduino UNO, Temperature Sensor, LED, LDR Module, Serial Tank Mo
 
 LiquidCrystal_I2C lcd(0x27,16,2);
 
-
 #include "serial_tank.h"  
 
 
