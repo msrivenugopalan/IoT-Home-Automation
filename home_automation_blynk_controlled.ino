@@ -53,6 +53,7 @@ BLYNK_WRITE(COOLER_V_PIN)
   
 }
 
+
 /*To turn ON and OFF heater based virtual PIN value*/
 
 BLYNK_WRITE(HEATER_V_PIN )
