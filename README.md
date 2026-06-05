@@ -1,5 +1,6 @@
 # IoT Smart Home Automation System 
 
+
 # Overview
 The IoT Home Automation System is designed to monitor and automate various home environment parameters using sensors, control modules, and IoT connectivity. 
 The system integrates temperature monitoring, ambient light sensing, water tank level monitoring, LCD display output, and remote monitoring through the Blynk platform.
