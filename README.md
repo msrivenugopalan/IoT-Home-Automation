@@ -1,4 +1,4 @@
-# IoT Home Automation System
+# IoT Smart Home Automation System 
 
 # Overview
 The IoT Home Automation System is designed to monitor and automate various home environment parameters using sensors, control modules, and IoT connectivity. 
