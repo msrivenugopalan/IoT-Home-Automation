@@ -1,15 +1,15 @@
-/*************************************************************
-Title         :   Home automation using blynk
-Description   :   To control light's brigntness with brightness,monitor temperature , monitor water level in the tank through blynk app
-Pheripherals  :   Arduino UNO , Temperature system, LED, LDR module, Serial Tank, Blynk cloud, Blynk App.
- *************************************************************/
-
+/***************************************************************************************************************************************
+Title         : Home Automation Using Blynk
+Description   : Controls lighting brightness, monitors temperature, and monitors water level through the Blynk mobile application.
+Peripherals   : Arduino UNO, Temperature Sensor, LED, LDR Module, Serial Tank Module, Blynk Cloud, Blynk App.
+****************************************************************************************************************************************/
+/*******************************************************************************
 // Template ID, Device Name and Auth Token are provided by the Blynk.Cloud
 // See the Device Info tab, or Template settings
-
+********************************************************************************/
 #define BLYNK_TEMPLATE_ID "TMPL3xRSX1TwN"
 #define BLYNK_TEMPLATE_NAME "Home Automation"
-#define BLYNK_AUTH_TOKEN "rzLPb7OpjzWGw3nXoMCcIST8QxtawQ7C"
+#define BLYNK_AUTH_TOKEN "YOUR_AUTH_TOKEN"
 
 #include <SPI.h>
 #include <Ethernet.h>
@@ -24,8 +24,6 @@ Pheripherals  :   Arduino UNO , Temperature system, LED, LDR module, Serial Tank
 LiquidCrystal_I2C lcd(0x27,16,2);
 
 
-
-
 #include "serial_tank.h"  
 
 
@@ -34,8 +32,9 @@ unsigned int tank_volume;
 
 BlynkTimer timer;
 
-
+/**************************************************************************
 // This function is called every time the Virtual Pin 0 state changes
+**************************************************************************/
 /*To turn ON and OFF cooler based virtual PIN value*/
 
 BLYNK_WRITE(COOLER_V_PIN)
