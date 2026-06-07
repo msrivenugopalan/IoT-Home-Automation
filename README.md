@@ -73,7 +73,7 @@ Provides remote monitoring and interaction capabilities through the Blynk platfo
 ## Simulation Output
 The project was developed and tested using PICSimLab simulation tool and Blynk IoT app.
 <img width="1916" height="1017" alt="Emertxe Project" src="https://github.com/user-attachments/assets/d4f95cd8-0b5e-453a-94cd-0c44558b2ca7" />
-![Uploading IoT-Blynk dashboard.jpeg…]()
+<img width="865" height="1600" alt="image" src="https://github.com/user-attachments/assets/c687c5db-6019-4232-b398-ff02da472031" />
 
 -----------------------------
 
